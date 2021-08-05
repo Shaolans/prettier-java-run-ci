@@ -1,7 +1,19 @@
 public class Prettier {
-  
-  public boolean prettierIsAwesome(int myFirstArgument, int mySecondArgument, int myThirdArgument, int myFourthArgument, int myFifthArgument) {
-    if(myFirstArgument == 1 && mySecondArgument == 2 && myThirdArgument == 3 && myFourthArgument == 4 && myFifthArgument == 5) {
+
+  public boolean prettierIsAwesome(
+    int myFirstArgument,
+    int mySecondArgument,
+    int myThirdArgument,
+    int myFourthArgument,
+    int myFifthArgument
+  ) {
+    if (
+      myFirstArgument == 1 &&
+      mySecondArgument == 2 &&
+      myThirdArgument == 3 &&
+      myFourthArgument == 4 &&
+      myFifthArgument == 5
+    ) {
       return true;
     }
 
@@ -12,6 +24,20 @@ public class Prettier {
     }
 
     MyObject mo = new MyObject();
-    return mo.very().very().very().very().very().very().very().very().very().very().very().very().very().longMethod();
+    return mo
+      .very()
+      .very()
+      .very()
+      .very()
+      .very()
+      .very()
+      .very()
+      .very()
+      .very()
+      .very()
+      .very()
+      .very()
+      .very()
+      .longMethod();
   }
 }
